@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+.box {
+	font-size: 2rem;
+	background-color: pink;
+
+	/* BOX MODEL */
+	width: 300px;
+	height: 100px;
+	padding: 32px 64px 100px 10px;
+	border: 5px solid black;
+	margin: 0px;
+
+	/* box sizing - content box
+  it includes the content height and width and border and margin width and have actual area greater then 300*100*/
+	/* box sizing - border box
+  it does not include the content height and width and border and margin width and have actual area equal to 300*100*/
+}
