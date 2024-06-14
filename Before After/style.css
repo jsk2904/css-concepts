@@ -1,0 +1,23 @@
+body{
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ font: 5rem;
+}
+
+p::before{
+ content: '';
+ background: red;
+ display: block;
+ height: 10px;
+ width: 10px;
+}
+
+p::after{
+ content: '';
+ background: red;
+ display: block;
+ height: 10px;
+ width: 10px;
+}
