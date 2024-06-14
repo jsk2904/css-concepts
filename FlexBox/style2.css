@@ -1,0 +1,67 @@
+/* BASE STYLES */
+:root {
+  --clr-dark: #0f172a;
+  --clr-light: #f1f5f9;
+  --clr-accent: #e11d48;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  word-spacing: 1.4px;
+  font-family: "Roboto", sans-serif;
+  color: var(--clr-dark);
+  background-color: var(--clr-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  height: 700px;
+  margin: 0 auto;
+  border: 10px solid var(--clr-dark);
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  background-color: #fb7185;
+  padding: 1em;
+  font-weight: 700;
+  color: var(--clr-light);
+  text-align: center;
+  border: 10px solid var(--clr-accent);
+  border-radius: 10px;
+}
+
+/* END OF BASE STYLES */
+.container {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: flex-end;
+  /* Horizontal or Main axis (by default Main axis in Horizontal)*/
+  /* center , sapce-between, space around, sapce-evenly */
+  align-items: start;
+  /* Vertical of Cross Axis */
+  /*  flex-start, flex-end, center, BaseLine */
+
+  flex-direction: row;
+  /* default row can be set as column */
+
+  flex-wrap: wrap;
+  /* to avoid item from crushing each other and wrap them automatically default is nowrap*/
+  align-content: flex-start;
+  /* Only works when flex-wrap is set to wrap align every item in cross axis accepts same value as justify-content*/
+
+  gap: 1em;
+}
