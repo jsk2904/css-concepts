@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+    /* General Styling */
+    body { font-family: sans-serif; margin: 0; background: #f0f0f0; }
+    section { padding: 50px; text-align: center; } 
+    h2 { color: #333; transition: color 0.5s; } /* Smooth color change on hover */
+    h2:hover { color: #ff6600; }  
+
+    /* Dynamic Hero Section */
+    #hero { background-image: url('your-background-image.jpg'); 
+             background-size: cover; height: 400px; 
+             display: flex; align-items: center; justify-content: center;
+             transition: transform 0.8s ease-in-out; } /* Zoom effect on hover */
+    #hero:hover { transform: scale(1.1); }  
+
+    /* Card Effect on Projects */
+    .project-card { background: #fff; padding: 20px; margin: 20px;
+                    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+                    transition: transform 0.3s, box-shadow 0.3s; }
+    .project-card:hover { transform: translateY(-10px);
+                         box-shadow: 0 8px 16px rgba(0,0,0,0.2); }
+   body {
+    background-image: 
+        linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+        url("background-image.jpg"); /* Initial background */
+    transition: background-image 3s ease;
+}
+
+body:hover {
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("background-image.jpg"); /* New background with darker overlay */
+}
+
+  </style>
+</head>
+<body>
+
+  <section id="hero">
+    <h1>Your Name</h1>
+    <h2>Your Title</h2>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Project 1</h3>
+    </div>
+    </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    </section>
+
+</body>
+</html>

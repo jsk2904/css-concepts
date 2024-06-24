@@ -1,0 +1,16 @@
+.subscribe-button:hover{
+ opacity:0.8;
+}
+
+.subscribe-button:active{
+ opacity: 0.5;
+}
+
+.join-button:hover{
+ background-color: rgb(41,118,211);
+ color:#fff;
+}
+
+.join-button:active{
+ opacity: 0.7;
+}
