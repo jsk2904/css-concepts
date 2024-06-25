@@ -1,7 +1,4 @@
-<link rel="stylesheet" type="text/css" href="transition.css">
-
-<style>
- .subscribe-button {
+.subscribe-button {
   background-color: rgb(200, 27, 27);
   color: #fff;
   border: none;
@@ -36,13 +33,3 @@ vertical-align: top;
 .tweet-button:hover{
  box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
 }
-</style>
-<button class="subscribe-button">
- SUBSCRIBE
-</button>
-<button class="join-button">
- JOIN
-</button>
-<button class="tweet-button">
- Tweet
-</button>
